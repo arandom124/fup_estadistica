@@ -36,7 +36,7 @@ function Integrantes() {
       <div className="space-y-4">
         <div>
           <h3 className="text-lg font-medium mb-1">Integrantes:</h3>
-          <p className="text-muted-foreground">Alban Rojas</p>
+          <p className="text-muted-foreground">Jhoan Alban Rojas</p>
           <p className="text-muted-foreground">⁠Ferney Lozada</p>
           <p className="text-muted-foreground">Jose Domingo Aranda</p>
           <p className="text-muted-foreground">Juan Pablo Cerón</p>

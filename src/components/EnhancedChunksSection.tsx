@@ -54,19 +54,14 @@ const EnhancedChunksSection: React.FC<EnhancedChunksSectionProps> = ({ isDark })
           <Table2 className="h-5 w-5" />
           3.4 Tablas
         </h3>
-        <p className="text-muted-foreground backdrop-blur-sm bg-black/30 p-3 rounded-md">
+        <p className="text-muted-foreground backdrop-blur-sm bg-black/10 p-3 rounded-md">
           Las tablas se pueden crear manualmente con sintaxis Markdown o generarlas con 
           funciones de R como <code className="text-cyan-400">knitr::kable()</code>.
         </p>
         <TableGenerator isDark={isDark} storageKey="rmarkdown-table-generator" />
       </div>
       
-      <div className="mt-8 flex justify-center">
-        <FuturisticButton variant="secondary" size="lg" className="group">
-          <Zap className="mr-2 h-5 w-5 transition-transform group-hover:rotate-180 duration-500" />
-          Generar Informe Completo
-        </FuturisticButton>
-      </div>
+      
     </div>
   );
 };
